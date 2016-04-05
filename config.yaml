@@ -1,0 +1,7 @@
+name: fetchproxy
+version: 1
+
+cron:
+- description: cron_fetch_proxy
+  url: /fetchproxy
+  schedule: "0 7 * * *"
